@@ -1,0 +1,50 @@
+@import './style';
+
+.contact-container{
+  display : flex;
+  flex-direction: column;
+  padding : 30px;
+}
+.contact-content-words{
+  align-self : center;
+}
+.contact-content-words>h4{
+  font-weight : 1000;
+}
+.contact-content-words>p{
+  font-weight : 500;
+}
+.contact-content-words>*{
+  text-align: center;
+}
+.contact-content-info{
+  display : flex;
+  justify-content: space-between;
+}
+.contact-content-info>*{
+  text-align: center;
+}
+.contact-content-info-detail>*{
+  font-weight : 500;
+}
+.contact-content-info-detail>h6{
+  color : $color_main1;
+}
+#map{
+  width : 90%;
+  height : 300px;
+  align-self: center;
+  margin-top : 30px;
+}
+@media screen and (max-width : 600px)
+{
+  .contact-content-info{
+    flex-direction: column;
+  }
+  .contact-content-words>h4{
+    font-size: $font_header_600;
+  }
+  .contact-content-words>p{
+    font-size : $font_sub_600;
+  }
+}

@@ -1,0 +1,55 @@
+@import './style';
+
+.home-content{
+  height : 100%;
+  display : flex;
+  align-items : center;
+  justify-content: flex-end;
+
+}
+
+.home-content-inner{
+
+
+
+}
+.home-content-slogan{
+   font-family : $font_roboto;
+    color: $color_silver1;
+    padding-right : 5vw;
+    font-size: 10vw;
+    font-weight: 500;
+    margin: 20px 0 20px 0;
+}
+.home-content-slogan-title{
+  font-size : 2.125rem;
+  font-weight : 600;
+}
+.home-content-slogan-subtitle{
+  font-size : 25px;
+  font-weight : 400;
+}
+@media screen and (max-width: 768px){
+  .home-content{
+    justify-content: center;
+  }
+  .home-content-slogan{
+    padding-right : 0px;
+  }
+  .home-content-slogan-title{
+    font-size : 2.125rem;
+    font-weight : 600;
+
+  }
+  .home-content-slogan-subtitle{
+    font-size : 25px;
+    font-weight : 400;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 320px){
+  .home-content-slogan-title{
+    text-align: center;
+
+  }
+}

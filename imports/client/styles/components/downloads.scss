@@ -1,0 +1,32 @@
+@import './style';
+
+div.downloads{
+  padding: 20px 0 20px 20px;
+}
+
+img.image_store{
+
+  width : 12%;
+  height : 12%;
+}
+h3.coming-soon{
+  font-size : 200%;
+  font-weight : 500;
+  color : #fff;
+}
+@media screen and (max-width: 600px)
+{
+  img.image_store{
+
+    width : 30%;
+    height : 30%;
+  }
+}
+@media screen and (max-width: 768px)
+{
+  img.image_store{
+
+    width : 20%;
+    height : 20%;
+  }
+}
