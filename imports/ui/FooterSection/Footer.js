@@ -9,11 +9,11 @@ import FontAwesome from 'react-fontawesome';
           <div className="footer-social-container">
             <div className="footer-social">
               <FontAwesome className="social-icon" name='facebook-square' size='3x' />
-              <p>Facebook</p>
+
             </div>
             <div className="footer-social">
               <FontAwesome className="social-icon" name='instagram' size='3x' />
-              <p>Instagram</p>
+              
             </div>
 
 

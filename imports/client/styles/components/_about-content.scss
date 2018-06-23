@@ -34,7 +34,8 @@ p.about-content-words-subtitle{
 }
 @media screen and (max-width: 768px){
   #about{
-    padding : 2.25rem;
+    margin-top : 1.125rem;
+    margin-bottom : 1.125rem;
   }
   img.about-content-image-image{
     width : 70%;
@@ -65,9 +66,7 @@ p.about-content-words-subtitle{
 }
 @media screen and (max-width: 600px)
 {
-  #about{
-    padding : 1.125rem;
-  }
+
 .about-content{
   flex-direction: column;
 }

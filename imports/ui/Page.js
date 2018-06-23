@@ -4,6 +4,7 @@ import Problem from './AppSection/TheApp';
 import AboutUs from './AboutSection/AboutUs';
 import ContactUs from './ContactSection/ContactUs';
 import Footer from './FooterSection/Footer';
+import NavBar from './HomeSection/NavBar';
 
 export default class Page extends React.Component
 {

@@ -9,14 +9,15 @@ export default class NavBar extends React.Component{
     $(function(){
       $(window).scroll(function(){
         if($(window).width()<=768){
-        if($(this).scrollTop()<170){
-
+        if($(this).scrollTop()<160){
+        $(".navbar").css("margin-top", "1.125rem");
          $(".navbar").css("background-color","transparent");
 
 
 
         }else{
-         $(".navbar").css("background-color", "rgba(46,204,113,0.8)");
+         $(".navbar").css("margin", "0");
+         $(".navbar").css("background-color", "rgba(46,204,113,1)");
 
 
 
@@ -44,9 +45,9 @@ export default class NavBar extends React.Component{
     return(
        <div className="navbar nav-custom">
           <a href="#"><img className="image-logo" src="images/go-logo2.png" /></a>
-           <a href="#" className="burger-nav">
-             <FontAwesome className="burger-bar" name='bars' size='3x' />
-           </a>
+
+             <FontAwesome className="burger-bar burger-nav" name='bars' size='3x' />
+
           <ul className="nav-items">
              <li className="nav-item"><a className="smooth-scroll" href="#top"><p className="nav-text">Home</p></a></li>
             <li className="nav-item"><a className="smooth-scroll" href="#about"><p className="nav-text">About Us</p></a></li>
