@@ -9,7 +9,7 @@ export default class NavBar extends React.Component{
     $(function(){
       $(window).scroll(function(){
         if($(window).width()<=768){
-        if($(this).scrollTop()<160){
+        if($(this).scrollTop()<50){
         $(".navbar").css("margin-top", "1.125rem");
          $(".navbar").css("background-color","transparent");
 

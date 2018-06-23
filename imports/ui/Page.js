@@ -18,10 +18,6 @@ export default class Page extends React.Component
         <Problem />
         <ContactUs />
         <Footer />
-
-
-
-
       </div>
 
     );

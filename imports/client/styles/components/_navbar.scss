@@ -8,7 +8,7 @@
     align-items: center;
 
     background : transparent;
-    transition : all .5s ease;
+    transition : margin-top .2s linear;
     border-radius : 2px;
     margin-top : 2.25rem;
     margin-left : 2.25rem;
@@ -85,7 +85,7 @@ ul.nav-items>*{
     order : 2;
     float : right;
     height : 40px;
-    margin-top : 1.125rem;
+    margin-top : 0.8rem;
     top : 25%;
     cursor : pointer;
   }
@@ -100,9 +100,9 @@ ul.nav-items>*{
     order : 3;
     margin : 0;
     position: fixed;
-    background : rgba(46,204,113,.5);
+    background : rgba(46,204,113,.8);
     height : 0;
-    transition: height .3s;
+    transition: height .5s;
     z-index: 100;
 
 
@@ -131,7 +131,17 @@ ul.nav-items>*{
     margin:0px;
 
   }
+  .nav-text{
+
+  }
 }
+@media screen and (max-width: 600px)
+{
+  .nav-text{
+    font-size : $font_header_600;
+  }
+}
+
 
 
 
