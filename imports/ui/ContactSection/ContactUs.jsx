@@ -17,11 +17,11 @@ export default class ContactUs extends React.Component{
             </div>
             <div className="contact-content-info-detail">
               <p>Give us a call:</p>
-              <h6>+855 10 101 010<br />+855 12 123 123</h6>
+              <h6>+855 70 805 090</h6>
             </div>
             <div className="contact-content-info-detail">
               <p>Drop us an email:</p>
-              <h6>gosoccercambodia@gmail.com</h6>
+              <a href="mailto:support@gosoccer.asia"><h6 className="email-contact">support@gosoccer.asia</h6></a>
             </div>
 
 

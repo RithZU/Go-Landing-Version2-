@@ -110,8 +110,8 @@
     height : 60%;
   }
   .app-content-image-box{
-      width: 20rem;
-      height: 20rem;
+      width: 20rem !important;
+      height: 20rem !important;
       margin-bottom : 2.25rem;
 
     }
@@ -152,6 +152,20 @@
 
 
     }
+}
+@media screen and (max-width : 1085px)
+{
+  .app-content-image-box{
+    width: 20em;
+    height: 20em;
+  }
+}
+@media screen and (max-width : 860px)
+{
+  .app-content-image-box{
+    width: 16em;
+    height: 16em;
+  }
 }
 @media screen and (max-width : 320px)
 {

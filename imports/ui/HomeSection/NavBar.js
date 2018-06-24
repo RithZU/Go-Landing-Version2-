@@ -9,9 +9,13 @@ export default class NavBar extends React.Component{
     $(function(){
       $(window).scroll(function(){
         if($(window).width()<=768){
-        if($(this).scrollTop()<50){
-        $(".navbar").css("margin-top", "1.125rem");
+        if($(this).scrollTop()<100){
+
          $(".navbar").css("background-color","transparent");
+
+         $(".navbar").css("margin-top", "1.125rem");
+
+
 
 
 
@@ -23,8 +27,24 @@ export default class NavBar extends React.Component{
 
        }
      }
+
+
       });
     });
+
+    $(window).resize(function(){
+      if($(window).width()>768){
+        $(".navbar").css("background-color","transparent");
+         $(".navbar").css("margin-left", "2.25rem");
+         $(".navbar").css("margin-right", "2.25rem");
+         $(".navbar").css("margin-top", "1.125rem");
+      }
+      else{
+         $(".navbar").css("margin", "0");
+          $(".navbar").css("margin-top", "1.125rem");
+      }
+});
+
 
     $(".burger-bar").click(function(){
         event.preventDefault();
@@ -52,7 +72,7 @@ export default class NavBar extends React.Component{
              <li className="nav-item"><a className="smooth-scroll" href="#top"><p className="nav-text">Home</p></a></li>
             <li className="nav-item"><a className="smooth-scroll" href="#about"><p className="nav-text">About Us</p></a></li>
             <li className="nav-item"><a className="smooth-scroll" href="#theApp"><p className="nav-text">The App</p></a></li>
-            <li className="nav-item"><a className="smooth-scroll" href="#contact"><p className="nav-text">Contact Us</p></a></li>
+            <li className="nav-item last-li"><a className="smooth-scroll" href="#contact"><p className="nav-text">Contact Us</p></a></li>
           </ul>
 
          </div>

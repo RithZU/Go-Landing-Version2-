@@ -8,12 +8,16 @@ import FontAwesome from 'react-fontawesome';
         <div className="footer-container">
           <div className="footer-social-container">
             <div className="footer-social">
-              <FontAwesome className="social-icon" name='facebook-square' size='3x' />
+              <a href="http://facebook.com/GoSoccerCambodia/" target="_blank"><FontAwesome className="social-icon" name='facebook-square' size='3x' /></a>
+
 
             </div>
             <div className="footer-social">
-              <FontAwesome className="social-icon" name='instagram' size='3x' />
-              
+              <a href="https://www.instagram.com/gosoccercambodia/?hl=en" target="_blank">
+                <FontAwesome className="social-icon" name='instagram' size='3x' />
+              </a>
+
+
             </div>
 
 

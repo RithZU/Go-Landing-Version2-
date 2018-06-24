@@ -24,12 +24,20 @@
 .contact-content-info>*{
   text-align: center;
 }
+.contact-content-info-detail{
+  flex-basis: 33.33%;
+}
 .contact-content-info-detail>*{
   font-weight : 500;
+
 }
 .contact-content-info-detail>h6{
   color : $color_main1;
 }
+.email-contact{
+  color : $color_main1;
+}
+
 #map{
   width : 90%;
   height : 300px;
