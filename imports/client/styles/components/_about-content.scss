@@ -24,6 +24,7 @@ div.about-content-words{
 h4.about-content-words-title{
   color : $color_main1;
   font-weight : 600;
+  font-size : $font_header_lap;
 
 
 }
@@ -31,6 +32,7 @@ p.about-content-words-subtitle{
   color : $color_dark1;
   margin : 0px;
   font-weight: 500;
+  font-size : $font_sub_lap;
 
 }
 @media screen and (max-width: 768px){

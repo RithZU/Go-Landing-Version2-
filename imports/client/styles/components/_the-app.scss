@@ -37,11 +37,13 @@
 }
 .app-content-words>h4{
   font-weight : 500;
+  font-size : $font_header_lap;
 
 
 }
 .app-content-words>p{
   font-weight : 400;
+  font-size : $font_sub_lap;
 
 }
 .app-content-image-box>img{
@@ -61,12 +63,15 @@
   text-transform: uppercase;
   color : $color_main1;
   font-weight : 450;
+  font-size : $font_header_lap;
   padding : 5px;
 }
 .app-content-image-box>p{
   font-weight : 500;
   padding : 5px;
   text-align: center;
+  font-size : $font_sub_lap;
+
 }
 @media screen and (max-width: 768px){
   h4{
