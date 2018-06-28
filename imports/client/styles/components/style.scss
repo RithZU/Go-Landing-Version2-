@@ -19,10 +19,10 @@ $font_header_600 : 27px;
 $font_sub_600 : 1.1rem;
 
 //font-size
-$font_header_360 : 25px;
+$font_header_360 : 23px;
 $font_sub_360 : 0.9rem;
 
-$font_header_320 : 23px;
+$font_header_320 : 20px;
 $font_sub_320 : 0.8rem;
 
 //font-size ipad
@@ -37,60 +37,3 @@ $font_sub_lap : 1.7em;
 $font_sub_std : 1em;
 //margin padding standard
 $padding_small : 4em;
-
-
-
-
-.header{
-  font-size : $font_header_lap;
-}
-.sub-header{
-  font-size : $font_sub_lap;
-}
-
-
-
-@media screen and (max-width: 600px){
-
-.section-container{
-  padding-top : $padding_small;
-  padding-left : $padding_small;
-  padding-right : $padding_small;
-
-}
-}
-
-
-@media screen and (max-width: 860px){
-  .header{
-    font-size : $font_header_768;
-  }
-  .sub-header{
-    font-size : $font_sub_768;
-  }
-}
-
-@media screen and (max-width: 600px){
-  .header{
-    font-size : $font_header_600;
-  }
-  .sub-header{
-    font-size : $font_sub_600;
-  }
-}
-@media screen and (max-width: 375px){
-  .header{
-    font-size : $font_header_360;
-  }
-  .sub-header{
-    font-size : $font_sub_360;
-  }
-}
-@media screen and (max-width: 320px){
-  .header{
-    font-size : $font_header_320;
-  }
-  .sub-header{
-    font-size : $font_sub_320;
-  }
-}

@@ -9,7 +9,8 @@ export default class NavBar extends React.Component{
     $(function(){
       $(window).scroll(function(){
         if($(window).width()<=768){
-          $(".navbar").css("margin", "0");
+
+
         if(($(this).scrollTop()<100)&& !($(".navbar").css("background-color","transparent"))){
           {
          $(".navbar").css("background-color","transparent");
@@ -40,7 +41,7 @@ export default class NavBar extends React.Component{
     $(".burger-bar").click(function(){
         event.preventDefault();
         $("ul.nav-items").toggleClass("open",500);
-        $(".navbar").css("margin", "0");
+
         $(".navbar").css("background-color", "rgba(46,204,113,1)");
       });
     //smooth scrolling
@@ -50,16 +51,33 @@ export default class NavBar extends React.Component{
 
       event.preventDefault();
       var section = $(this).attr("href");
-      console.log(section);
-      $('html, body').animate({scrollTop :$(section).offset().top}, 800);
+
+      var scrollVal = $(window).width()>=768?($(section).offset().top) : ($(section).offset().top)-60;
+      $('html, body').animate({scrollTop :scrollVal}, 800);
     });
     $('.scroll-header').click(function(event){
       console.log("")
       $("ul.nav-items").toggleClass("open",500);
     });
 
-
-  }
+    $( window ).resize(function() {
+      if($(window).width()>768){
+        $(".navbar").css("background-color", "transparent");
+        $(".navbar").css("margin-top", "1.125rem");
+        $(".navbar").css("margin-left", "2.25rem");
+        $(".navbar").css("margin-right", "2.25rem");
+      }
+      else{
+        $(".navbar").css("margin-top", "0");
+        $(".navbar").css("margin-left", "0");
+        $(".navbar").css("margin-right", "0");
+      }
+});
+  $('.image-logo').click(function(event){
+    event.preventDefault();
+    $('html, body').animate({scrollTop :0}, 800);
+  });
+}
   render()
   {
     return(

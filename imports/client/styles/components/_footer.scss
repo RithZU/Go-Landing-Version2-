@@ -1,5 +1,3 @@
-@import './style';
-
 .footer-container{
   background-color : $color_main1;
   display: flex;
@@ -13,7 +11,7 @@
 
 }
 .social-icon{
-  padding : 0 10px 10px 10px;
+  padding : 10px;
   color : #fff;
 }
 .footer-social{
@@ -21,11 +19,7 @@
 
 
 }
-.footer-social>p{
-  align-self: center;
-  font-weight : 400;
-  color : #fff;
-}
+
 // .footer-nav-items{
 //   width: 100%;
 //     display: flex;
@@ -62,23 +56,20 @@ p.footer-nav-text{
     color: #fff;
 }
 .footer-navbar{
-  padding-left: 10.25rem;
-padding-right: 10.25rem;
+  padding-left: 5em;
+padding-right: 5em;
 }
 .footer-logo{
   display: flex;
 justify-content: center;
 }
 .footer-image-logo{
-  max-width: 8rem;
-    max-height: 4rem;
+  max-width: 9rem;
+    max-height: 5rem;
     height: auto;
     width: auto;
 }
 @media screen and (max-width: 600px){
-  .footer-container{
-
-  }
   .footer-nav-items{
     flex-direction: column;
     justify-content: center;
@@ -88,10 +79,7 @@ justify-content: center;
   }
   .footer-navbar{
     padding-left: 0;
-    padding-right: 0;
-  }
-  .smooth-scroll-footer{
-    padding : 17px;
+  padding-right: 0;
   }
   li.footer-nav-item{
     display:flex;
@@ -113,18 +101,21 @@ justify-content: center;
 
 
   }
-  .footer-navbar{
-    padding-left: 5.25rem;
-    padding-right: 5.25rem;
-  }
+
   .footer-nav-items{
     margin : 0 ;
-
+    padding-bottom : 1.125rem !important;
 
 
   }
   p.footer-nav-text{
     margin : 0px !important;
+  }
+  .footer-image-logo{
+    max-width: 7rem;
+      max-height: 4rem;
+      height: auto;
+      width: auto;
   }
 
 

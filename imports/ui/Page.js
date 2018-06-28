@@ -2,7 +2,7 @@ import React from 'react';
 import HomeCover from './HomeSection/HomeCover';
 import Problem from './AppSection/TheApp';
 import AboutUs from './AboutSection/AboutUs';
-import ContactUs from './ContactSection/ContactUs';
+import {ContactUs, MapAPI} from './ContactSection/ContactUs';
 import Footer from './FooterSection/Footer';
 import NavBar from './HomeSection/NavBar';
 import App from './ParallaxTest';
@@ -14,6 +14,7 @@ export default () =>{
         <AboutUs />
         <Problem />
         <ContactUs />
+        <MapAPI />
         <Footer />
         <App />
       </div>

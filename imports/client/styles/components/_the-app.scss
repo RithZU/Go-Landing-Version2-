@@ -6,10 +6,11 @@
   background-repeat : no-repeat;
   background-size: cover;
   background-position: center;
-  padding : 2.25rem;
+
 
 
 }
+
 .app-content-box-container{
   display : flex;
   justify-content: space-evenly;
@@ -103,10 +104,11 @@
       margin-bottom : 4em;
 
     }
+    .last-box{
+      margin-bottom : 0 !important;
+    }
     .app-content-words{
       padding : 0;
-
-
     }
 
 
@@ -143,9 +145,7 @@
 }
 @media screen and (max-width : 320px)
 {
-  #theApp{
-    padding-top : 2.25rem;
-  }
+  
 
   .app-content-image-box{
       width: 15rem;
@@ -158,14 +158,5 @@
 
 
     }
-    #about{
-      padding-top : 0;
-    }
-}
-@media screen and (max-width : 360px)
-{
-  #theApp{
-    padding-top : 2.25rem;
-  }
 
 }
