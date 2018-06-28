@@ -5,8 +5,9 @@ import AboutUs from './AboutSection/AboutUs';
 import ContactUs from './ContactSection/ContactUs';
 import Footer from './FooterSection/Footer';
 import NavBar from './HomeSection/NavBar';
+import App from './ParallaxTest';
 
- export default () =>{
+export default () =>{
     return(
       <div className="home-page">
         <HomeCover />
@@ -14,6 +15,7 @@ import NavBar from './HomeSection/NavBar';
         <Problem />
         <ContactUs />
         <Footer />
+        <App />
       </div>
 
     );

@@ -4,7 +4,7 @@ import FontAwesome from 'react-fontawesome';
 
 const Footer = ()=>{
   return(
-    <div className="footer-container">
+    <div className="footer-container section-container">
       <div className="footer-social-container">
         <div className="footer-social">
           <a href="http://facebook.com/GoSoccerCambodia/" target="_blank"><FontAwesome className="social-icon" name='facebook-square' size='3x' /></a>

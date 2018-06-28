@@ -5,8 +5,8 @@ const AppImageContainer = (props)=>{
   return(
     <div className="app-content-image-box">
       <img src={props.imgSrc}/>
-      <h5>{props.title}</h5>
-      <p>{props.subtitle}</p>
+      <h5 className="header">{props.title}</h5>
+      <p className="sub-header">{props.subtitle}</p>
     </div>
   );
 }

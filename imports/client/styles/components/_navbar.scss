@@ -8,7 +8,7 @@
     align-items: center;
 
     background : transparent;
-    transition : margin-top .3s ease;
+    transition : margin-top .4s ease;
     border-radius : 2px;
     margin-top : 1.125rem;
     margin-left : 2.25rem;
@@ -28,7 +28,10 @@
 img.image-logo{
   // max-height: 50px !important;
   // max-width: 400px !important;
-  width: 9rem;
+  max-width: 9rem;
+    max-height: 5rem;
+    height: auto;
+    width: auto;
 }
 ul.nav-items{
 
@@ -42,7 +45,7 @@ ul.nav-items>*{
   padding-right : 4.5rem;
 }
 .nav-text{
-  font-size : 24px !important;
+  font-size : 24px;
   color : #fff;
   font-weight : 600;
 }
@@ -76,14 +79,16 @@ ul.nav-items>*{
   img.image-logo{
     padding : 0px;
     order : 1;
-
+    max-width: 8rem;
+    max-height: 4rem;
+    height: auto;
+    width: auto;
     margin-left : 1.125rem;
   }
   .burger-nav{
     height : inherit;
     order : 2;
     float : right;
-    height : 40px;
     margin-top: 1.2rem;
     top : 25%;
     cursor : pointer;
@@ -112,7 +117,7 @@ ul.nav-items>*{
     padding : 0;
   }
   ul.open{
-     height:28rem;
+     height:auto;
      padding : 0;
      z-index: 100;
   }
@@ -131,13 +136,15 @@ ul.nav-items>*{
 
   }
   .nav-text{
-
+    font-size : 16px;
+    margin-top : 0.5em;
+    margin-bottom : 0.5em;
   }
 }
 @media screen and (max-width: 600px)
 {
   .nav-text{
-    font-size : $font_header_600;
+    font-size : 14px;
   }
 }
 

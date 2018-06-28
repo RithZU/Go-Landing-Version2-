@@ -9,12 +9,12 @@
   align-self : center;
 }
 .contact-content-words>h4{
-  font-weight : 1000;
-  font-size : $font_header_lap;
+  font-weight : bolder;
+
 }
 .contact-content-words>p{
-  font-weight : 500;
-  font-size : $font_sub_lap;
+
+
 }
 .contact-content-words>*{
   text-align: center;
@@ -29,49 +29,51 @@
 .contact-content-info-detail{
   flex-basis: 33.33%;
 }
-.contact-content-info-detail>*{
-  font-weight : 500;
-
-}
 .contact-content-info-detail>p{
-  font-size : $font_sub_lap;
+  font-weight : bold;
+
 }
 .contact-content-info-detail>h6{
   color : $color_main1;
-  font-size : $font_sub_lap;
+
+
 }
 .email-contact{
   color : $color_main1;
-  font-size : $font_sub_lap;
+  margin-bottom: 0;
 }
+
 
 #map{
   width : 90%;
   height : 350px;
   align-self: center;
-  margin-top : 30px;
+  margin-top : $padding_small;
+}
+@media screen and (min-width : 1024px)
+{
+
+  .email-contact{
+    color : $color_main1;
+
+  }
 }
 @media screen and (max-width : 600px)
 {
+
   #map{
     width : 100%;
 
+  }
+  .contact-container{
+    padding: 0;
   }
   .contact-content-info{
     flex-direction: column;
   }
   .contact-content-words>h4{
-    font-size: $font_header_600;
+
     margin-top : 0;
-  }
-  .contact-content-words>p{
-    font-size : $font_sub_600;
-  }
-  .contact-content-info-detail>p{
-    font-size : $font_sub_600;
-  }
-  .contact-content-info-detail>h6{
-    font-size : $font_sub_600;
   }
 }
 @media screen and (max-width : 360px)
@@ -79,34 +81,12 @@
   .contact-content-info{
     flex-direction: column;
   }
-  .contact-content-words>h4{
-    font-size: $font_header_360;
-  }
-  .contact-content-words>p{
-    font-size : $font_sub_360;
-  }
-  .contact-content-info-detail>p{
-    font-size : $font_sub_360;
-  }
-  .contact-content-info-detail>h6{
-    font-size : $font_sub_360;
-  }
+
 }
 @media screen and (max-width : 320px)
 {
   .contact-content-info{
     flex-direction: column;
   }
-  .contact-content-words>h4{
-    font-size: $font_header_320;
-  }
-  .contact-content-words>p{
-    font-size : $font_sub_320;
-  }
-  .contact-content-info-detail>p{
-    font-size : $font_sub_320;
-  }
-  .contact-content-info-detail>h6{
-    font-size : $font_sub_320;
-  }
+
 }

@@ -29,7 +29,7 @@
   display : flex;
   flex-direction: column;
   text-align : center;
-  padding : 1.125rem;
+
 }
 .app-content-words >*{
   margin-top : 0px;
@@ -37,13 +37,10 @@
 }
 .app-content-words>h4{
   font-weight : 500;
-  font-size : $font_header_lap;
-
-
 }
 .app-content-words>p{
-  font-weight : 400;
-  font-size : $font_sub_lap;
+  font-weight : 500;
+
 
 }
 .app-content-image-box>img{
@@ -63,50 +60,36 @@
   text-transform: uppercase;
   color : $color_main1;
   font-weight : 450;
-  font-size : $font_header_lap;
+
   padding : 5px;
 }
 .app-content-image-box>p{
   font-weight : 500;
   padding : 5px;
   text-align: center;
-  font-size : $font_sub_lap;
+
+
+}
+@media screen and (min-width:1024){
 
 }
 @media screen and (max-width: 768px){
-  h4{
-    font-size : 30px;
-    font-size : 1.2rem;
-  }
+
   .app-content-box-container{
     flex-direction : row;
   }
-  .app-content-image-box{
 
-      width: 25vw;
-      height: 25vw;
-
-
-  }
   .app-content-words{
     padding-right: 1.125rem;
     padding-left: 1.125rem;
     padding-bottom: 1.125rem;
     padding-top : 0;
   }
-  .app-content-words>p{
-    font-size : 1.2rem;
-  }
-  .app-content-words>h4{
-    font-size : 30px;
-  }
+
 }
 @media screen and (max-width : 600px)
 {
-  h4{
-    font-size : 30px;
-    font-size : 1.2rem;
-  }
+
   .app-content-box-container{
     flex-direction : column;
   }
@@ -115,26 +98,18 @@
     height : 60%;
   }
   .app-content-image-box{
-      width: 20rem !important;
-      height: 20rem !important;
-      margin-bottom : 2.25rem;
+      width: 17rem !important;
+      height: 17rem !important;
+      margin-bottom : 4em;
 
     }
     .app-content-words{
       padding : 0;
-      padding-top: 2.25rem;
 
-    }
-    .app-content-words>h4{
-      font-size : $font_header_600;
 
     }
 
 
-    .app-content-words>p{
-      font-size : $font_sub_600;
-
-    }
 
     .app-content-box-container{
       justify-content: space-evenly;
@@ -145,18 +120,7 @@
 
 
     }
-    .app-content-image-box>h5{
 
-        font-size : $font_header_600;
-
-
-    }
-    .app-content-image-box>p{
-
-        font-size : $font_sub_600;
-
-
-    }
 }
 @media screen and (max-width : 1085px)
 {
@@ -164,6 +128,10 @@
     width: 20em;
     height: 20em;
   }
+  .app-content-image-box>h5{
+      font-size : 30px;
+  }
+
 }
 @media screen and (max-width : 860px)
 {
@@ -171,29 +139,14 @@
     width: 16em;
     height: 16em;
   }
+
 }
 @media screen and (max-width : 320px)
 {
   #theApp{
     padding-top : 2.25rem;
   }
-  .app-content-words>h4{
-    font-size : $font_header_320;
 
-  }
-  .app-content-words>p{
-    font-size : $font_sub_320;
-
-  }
-  .app-content-image-box>h5{
-
-      font-size : $font_header_320;
-
-
-  }
-  .app-content-image-box>p{
-    font-size : $font_sub_320;
-  }
   .app-content-image-box{
       width: 15rem;
       height: 15rem;
@@ -214,21 +167,5 @@
   #theApp{
     padding-top : 2.25rem;
   }
-  .app-content-words>h4{
-    font-size : $font_header_360;
 
-  }
-  .app-content-words>p{
-    font-size : $font_sub_360;
-
-  }
-  .app-content-image-box>h5{
-
-      font-size : $font_header_360;
-
-
-  }
-  .app-content-image-box>p{
-    font-size : $font_sub_360;
-  }
 }

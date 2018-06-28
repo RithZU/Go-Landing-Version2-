@@ -3,10 +3,10 @@ import AppImageContainer from './AppImageContainer';
 
 export default () =>{
   return(
-    <div id="theApp" className="the-app-container">
+    <div id="theApp" className="the-app-container section-container">
       <div className="app-content-words">
-        <h4>Why GoSoccer?</h4>
-        <p>We make your booking process much easier</p>
+        <h4 className="header">Why GoSoccer?</h4>
+        <p className="sub-header">We make your booking process much easier</p>
       </div>
       <div className="app-content-box-container">
         <AppImageContainer title="Quick" subtitle="Find your favorite fields" imgSrc="images/app/icon_lightning.png" />
