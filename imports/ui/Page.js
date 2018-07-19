@@ -5,7 +5,7 @@ import AboutUs from './AboutSection/AboutUs';
 import {ContactUs, MapAPI} from './ContactSection/ContactUs';
 import Footer from './FooterSection/Footer';
 import NavBar from './HomeSection/NavBar';
-import App from './ParallaxTest';
+
 
 export default () =>{
     return(
@@ -16,7 +16,7 @@ export default () =>{
         <ContactUs />
         <MapAPI />
         <Footer />
-        <App />
+
       </div>
 
     );

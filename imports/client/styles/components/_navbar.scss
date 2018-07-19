@@ -40,7 +40,6 @@ ul.nav-items{
   flex-direction: row;
   justify-content: flex-end;
   width: 100%;
-  padding-left: 255px;
 }
 ul.nav-items>*{
   padding-right : 4.5rem;
@@ -48,7 +47,7 @@ ul.nav-items>*{
 .nav-text{
   font-size : 24px;
   color : #fff;
-  font-weight : 600;
+  font-weight : bold;
 }
 .nav-text:hover{
   color : darken($color_silver1,0.2);
@@ -71,8 +70,6 @@ ul.nav-items>*{
   }
   .burger-bar{
     display : block;
-
-    margin-right: 1.125rem;
   }
 
   img.image-logo{
@@ -88,7 +85,7 @@ ul.nav-items>*{
     height : inherit;
     order : 2;
     float : right;
-    margin-top: 1rem;
+    padding: 1.125rem;
     top : 25%;
     cursor : pointer;
   }

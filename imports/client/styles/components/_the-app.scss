@@ -13,7 +13,8 @@
 
 .app-content-box-container{
   display : flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  flex-basis: 33.33%;
 }
 
 .app-content-image-box{
@@ -25,28 +26,33 @@
     height: 25em;
     padding : 1.125rem;
 
+
 }
+
 .app-content-words{
   display : flex;
   flex-direction: column;
   text-align : center;
+  margin-bottom : 2em;
 
 }
 .app-content-words >*{
+
   margin-top : 0px;
   color : #fff;
 }
 .app-content-words>h4{
-  font-weight : 500;
+  font-weight : bold;
 }
 .app-content-words>p{
-  font-weight : 500;
 
 
 }
 .app-content-image-box>img{
-  width : 50%;
-  height : 50%;
+  width: auto;
+  height : auto;
+  max-width : 8rem;
+  max-height : 8rem;
 }
 .app-content-image-box{
     display: flex;
@@ -60,12 +66,12 @@
 .app-content-image-box>h5{
   text-transform: uppercase;
   color : $color_main1;
-  font-weight : 450;
+  font-weight : bold;
 
   padding : 5px;
 }
 .app-content-image-box>p{
-  font-weight : 500;
+  //font-weight : 500;
   padding : 5px;
   text-align: center;
 
@@ -95,8 +101,11 @@
     flex-direction : column;
   }
   .app-content-image-box>img{
-    width : 60%;
-    height : 60%;
+
+    max-width : 9rem;
+    max-height : 9rem;
+    width: auto;
+    height : auto;
   }
   .app-content-image-box{
       width: 17rem !important;
@@ -131,25 +140,29 @@
     height: 20em;
   }
   .app-content-image-box>h5{
-      font-size : 30px;
+
+      font-size: 22px;
+  }
+  .app-content-image-box>p{
+    font-size : 0.9rem;
   }
 
 }
 @media screen and (max-width : 860px)
 {
   .app-content-image-box{
-    width: 16em;
-    height: 16em;
+    width: 15em;
+    height: 15em;
   }
 
 }
 @media screen and (max-width : 320px)
 {
-  
+
 
   .app-content-image-box{
-      width: 15rem;
-      height: 15rem;
+      width: 16em;
+      height: 16em;
 
 
     }

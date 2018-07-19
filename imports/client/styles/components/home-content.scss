@@ -5,6 +5,7 @@
   display : flex;
   align-items : center;
   justify-content: flex-end;
+  padding : 6em;
 
 }
 
@@ -16,18 +17,20 @@
 .home-content-slogan{
 
     color: $color_silver1;
-    padding-right : 5vw;
-    font-size: 10vw;
-    font-weight: 500;
+
+  //  font-weight: 500;
     margin: 20px 0 20px 0;
 }
 .home-content-slogan-title{
   font-size : 2.125rem;
-  font-weight : 600;
+  font-weight : bold;
+  margin-bottom : 0.25em;
+  white-space : nowrap;
 }
 .home-content-slogan-subtitle{
-  font-size : 25px;
-  font-weight : 400;
+  font-size : 20px;
+  margin : 0;
+  //font-weight : 400;
 }
 @media screen and (max-width: 768px){
   .home-content{
@@ -39,13 +42,12 @@
   }
   .home-content-slogan-title{
     font-size : 2.125rem;
-    font-weight : 600;
+
     text-align: center;
 
   }
   .home-content-slogan-subtitle{
-    font-size : 25px;
-    font-weight : 400;
+
     text-align: center;
   }
 }

@@ -5,24 +5,25 @@
 
 
 .section-container{
-  padding-top : 6em;
-  padding-bottom : 6em;
+  padding : 6em 3em 6em 3em;
 
   }
 @media screen and (max-width: 768px){
 
 .section-container{
-  padding : 4em;
+  padding: 4em 2em 4em 2em;
 
   }
 }
 
 //font size
 .header{
-  font-size : $font_header_lap;
+  font-size: $font_header_lap;
+
 }
 .sub-header{
-  font-size : $font_sub_lap;
+  //line-height: 2rem;
+  font-size: $font_sub_lap;
 }
 
 @media screen and (max-width: 860px){

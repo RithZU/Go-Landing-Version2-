@@ -5,28 +5,13 @@ div.downloads{
 }
 
 img.image_store{
-
-  width : 12%;
-  height : 12%;
+  max-width : 9rem;
+  max-height: 4rem;
+  width : auto;
+  height : auto;
 }
 h3.coming-soon{
   font-size : 25px;
-  font-weight : 500;
+  font-weight : bold;
   color : #fff;
-}
-@media screen and (max-width: 600px)
-{
-  img.image_store{
-
-    width : 22%;
-    height : 22%;
-  }
-}
-@media screen and (max-width: 768px)
-{
-  img.image_store{
-
-    width : 20%;
-    height : 20%;
-  }
 }

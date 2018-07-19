@@ -1,9 +1,13 @@
 @import './../imports/client/styles/main';
+@import './../imports/client/styles/components/style';
 
 html,body, .page-cover, #app{
   height : 100%;
+  font-size : 12.5px;
+
+
 }
 body{
   margin : 0;
-  font-family: 'Open Sans' , $font_roboto !important; 
+  font-family: 'Open Sans', $font_roboto, sans-serif !important;
 }

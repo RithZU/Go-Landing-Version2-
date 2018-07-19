@@ -3,6 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import PageContainer from './../imports/ui/PageContainer';
 
+
 Meteor.startup(()=>{
-  ReactDOM.render(<PageContainer />,document.getElementById('app'));
+  ReactDOM.render(<PageContainer/>,document.getElementById('app'));
 });

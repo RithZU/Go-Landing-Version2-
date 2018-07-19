@@ -6,8 +6,8 @@ const HomeContent = () =>{
     <div className="home-content">
 
         <div className="home-content-slogan">
-          <h2 className="home-content-slogan-title">Booking with Technology</h2>
-          <h4 className="home-content-slogan-subtitle">Book and Play with us</h4>
+          <h4 className="home-content-slogan-title">Booking With Technology</h4>
+          <p className="home-content-slogan-subtitle">Book and Play with us</p>
         </div>
 
 
